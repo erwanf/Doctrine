@@ -1,0 +1,19 @@
+{
+    "name": "Doctrine-Test-WMD",
+    "type": "COurs Doctrine",
+    "description": "Doctrine Premiers Pas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erwan Fournel",
+            "email": "erwan.fournel@imie.fr"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "2.*",
+        "symfony/yaml": "2.*"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}
